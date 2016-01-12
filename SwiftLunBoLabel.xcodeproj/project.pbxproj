@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6525CAC41C44E92000362F4D /* JXScrollLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525CAC31C44E92000362F4D /* JXScrollLabelView.swift */; };
 		65B639101C43831900D8C42F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6390F1C43831900D8C42F /* AppDelegate.swift */; };
 		65B639121C43831900D8C42F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B639111C43831900D8C42F /* ViewController.swift */; };
 		65B639151C43831900D8C42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B639131C43831900D8C42F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6525CAC31C44E92000362F4D /* JXScrollLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXScrollLabelView.swift; sourceTree = "<group>"; };
 		65B6390C1C43831900D8C42F /* SwiftLunBoLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLunBoLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B6390F1C43831900D8C42F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B639111C43831900D8C42F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6525CAC21C44E92000362F4D /* JXScrollLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				6525CAC31C44E92000362F4D /* JXScrollLabelView.swift */,
+			);
+			path = JXScrollLabelView;
+			sourceTree = "<group>";
+		};
 		65B639031C43831900D8C42F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 			children = (
 				65B6390F1C43831900D8C42F /* AppDelegate.swift */,
 				65B639111C43831900D8C42F /* ViewController.swift */,
+				6525CAC21C44E92000362F4D /* JXScrollLabelView */,
 				65B639131C43831900D8C42F /* Main.storyboard */,
 				65B639161C43831900D8C42F /* Assets.xcassets */,
 				65B639181C43831900D8C42F /* LaunchScreen.storyboard */,
@@ -258,6 +269,7 @@
 			files = (
 				65B639121C43831900D8C42F /* ViewController.swift in Sources */,
 				65B639101C43831900D8C42F /* AppDelegate.swift in Sources */,
+				6525CAC41C44E92000362F4D /* JXScrollLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +494,7 @@
 				65B639361C43831900D8C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B639371C43831900D8C42F /* Build configuration list for PBXNativeTarget "SwiftLunBoLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				65B639391C43831900D8C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B6393A1C43831900D8C42F /* Build configuration list for PBXNativeTarget "SwiftLunBoLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				65B6393C1C43831900D8C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
